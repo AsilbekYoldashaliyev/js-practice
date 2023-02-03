@@ -1,0 +1,129 @@
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rothko Painting</title>
+  </head>
+  <body>
+   
+     <section>
+      <div class="title">
+        <div class="title-mini-container">
+          <h1 id="title">Your information</h1>
+          <p id="description">This website keeps your information safe</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <form id="survey-form" action="" method="get">
+          <div class="name">
+            <label id="name-label" for="name">Name:</label>
+            <input
+              id="name"
+              type="text"
+              name="name"
+              id="name"
+              placeholder="username"
+              required
+            />
+          </div>
+          <div class="email">
+            <label id="email-label" for="email">Email:</label>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="@gmail.com"
+              required
+            />
+          </div>
+          <div class="number">
+            <label id="number-label" for="number">Number:</label>
+            <input
+              id="number"
+              type="number"
+              name="number"
+              placeholder="call number"
+              min="0"
+              max="99999999"
+              required
+            />
+          </div>
+          <p class="gender-title">Gender</p>
+          <div class="gender">
+            <div>
+              <label for="male">Male:</label>
+              <input type="radio" value="male" name="gender" id="male" />
+            </div>
+            <div>
+              <label for="female">Female:</label>
+              <input type="radio" value="female" name="gender" id="female" />
+            </div>
+            <div>
+              <label for="other">Other:</label>
+              <input type="radio" value="other" name="gender" id="other" />
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <label for="job"> Select your job </label>
+            <select name="job" id="dropdown">
+              <option value="teacher">Teacher</option>
+              <option value="programmer">Programmer</option>
+            </select>
+          </div>
+          <div class="checkbox">
+            <p>Which programing languages would you like to learn?</p>
+            <label>
+              <input type="checkbox" value="frontend" />
+              Frontend</label
+            >
+            <label>
+              <input type="checkbox" value="backend" />
+              Backend</label
+            >
+            <label>
+              <input type="checkbox" value="fullstack" />
+              Fullstack</label
+            >
+          </div>
+
+          <div class="info">
+            <label for="info">Leave your info </label>
+            <textarea name="info" id="textarea" cols="40" rows="5"></textarea>
+          </div>
+
+          <div class="btn-container">
+            <button id="submit" type="submit">Submit</button>
+            <button id="reset" type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+    </section> 
+
+    <img src="" alt="">
+
+    <script src="script.js"></script>
+  </body>
+</html> 
+
+<!-- Your tribute page should have a main element with a corresponding id of main, which contains all other elements
+You should see an element with an id of title, which contains a string (i.e. text), that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug")
+You should see either a figure or a div element with an id of img-div
+Within the #img-div element, you should see an img element with a corresponding id="image"
+Within the #img-div element, you should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in #img-div
+You should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page
+You should see an a element with a corresponding id="tribute-link", which links to an outside site, that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab
+Your #image should use max-width and height properties to resize responsively, relative to the width of its parent element, without exceeding its original size
+Your img element should be centered within its parent element
+Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
+
+Note: Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to link your stylesheet and apply your CSS
+
+-->
