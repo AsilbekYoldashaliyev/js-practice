@@ -11,22 +11,69 @@
 
 // Note: You can use Ternary operator inside if/else statement for more concise and readable code.
 
-let output = [];
+/////////////////////////////////  FIZZBUZZ
 
-for (let empty = 1; empty <= 100; empty++) {
-  if (empty % 3 === 0 && empty % 5 === 0) {
-    output.push("Fizzbuzz");
-  } else if (empty % 3 === 0) {
-    output.push("Fizz");
-  } else if (empty % 5 === 0) {
-    output.push("Buzz");
-  } else {
-    output.push(empty);
-  }
+// let output = [];
+
+// for (let empty = 1; empty <= 100; empty++) {
+//   if (empty % 3 === 0 && empty % 5 === 0) {
+//     output.push("Fizzbuzz");
+//   } else if (empty % 3 === 0) {
+//     output.push("Fizz");
+//   } else if (empty % 5 === 0) {
+//     output.push("Buzz");
+//   } else {
+//     output.push(empty);
+//   }
+// }
+
+// const printOutput = () => {
+//   console.log(output);
+// };
+
+// printOutput();
+
+/////////////////////////////////////// HARFLAR
+
+// let string = "world";
+
+// let word = string.split("");
+
+// let natija = [];
+
+// for (let i = word.length - 1; i >= 0; i = i - 1) {
+//   natija.push(word[i]);
+// }
+
+// console.log(natija.join(""));
+// natija.join("");
+
+//////////////////////////////////////// SO'ZLAR
+
+// let string = "world hello creator am I";
+
+// let word = string.split(" ");
+
+// let natija = [];
+
+// for (let i = word.length - 1; i >= 0; i = i - 1) {
+//   natija.push(word[i]);
+// }
+
+// console.log(natija.join(" "));
+// natija.join("");
+
+///////////////////////////////////// HARFLAR
+
+let string = "987654321";
+
+let word = string.split("");
+
+let natija = [];
+
+for (let i = word.length - 1; i >= 0; i = i - 1) {
+  natija.push(word[i]);
 }
 
-const printOutput = () => {
-  console.log(output);
-};
-
-printOutput();
+console.log(natija.join(" "));
+natija.join("");
