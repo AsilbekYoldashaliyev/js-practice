@@ -35,18 +35,18 @@
 
 /////////////////////////////////////// HARFLAR
 
-// let string = "world";
+let string = "world";
 
-// let word = string.split("");
+let word = string.split("");
 
-// let natija = [];
+let natija = [];
 
-// for (let i = word.length - 1; i >= 0; i = i - 1) {
-//   natija.push(word[i]);
-// }
+for (let i = word.length - 1; i >= 0; i = i - 1) {
+  natija.push(word[i]);
+}
 
-// console.log(natija.join(""));
-// natija.join("");
+console.log(natija.join(""));
+natija.join("");
 
 //////////////////////////////////////// SO'ZLAR
 
@@ -78,17 +78,3 @@
 // console.log(natija.join(" "));
 // natija.join("");
 
-function solution() {
-  
-}
-// let string = "world";
-
-//   let word = string.split("");
-
-//   let natija = [];
-
-//   for (let i = word.length - 1; i >= 0; i = i - 1) {
-//     natija.push(word[i]);
-//   }
-//   console.log(natija.join(""));
-//   natija.join("");
