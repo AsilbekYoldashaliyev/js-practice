@@ -63,17 +63,32 @@
 // console.log(natija.join(" "));
 // natija.join("");
 
-///////////////////////////////////// HARFLAR
+///////////////////////////////////// Sonlar
 
-let string = "987654321";
+// let string = "987654321";
 
-let word = string.split("");
+// let word = string.split("");
 
-let natija = [];
+// let natija = [];
 
-for (let i = word.length - 1; i >= 0; i = i - 1) {
-  natija.push(word[i]);
+// for (let i = word.length - 1; i >= 0; i = i - 1) {
+//   natija.push(word[i]);
+// }
+
+// console.log(natija.join(" "));
+// natija.join("");
+
+function solution() {
+  
 }
+// let string = "world";
 
-console.log(natija.join(" "));
-natija.join("");
+//   let word = string.split("");
+
+//   let natija = [];
+
+//   for (let i = word.length - 1; i >= 0; i = i - 1) {
+//     natija.push(word[i]);
+//   }
+//   console.log(natija.join(""));
+//   natija.join("");
