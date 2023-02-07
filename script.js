@@ -50,18 +50,18 @@ natija.join("");
 
 //////////////////////////////////////// SO'ZLAR
 
-// let string = "world hello creator am I";
+let hello = "world hello creator am I";
 
-// let word = string.split(" ");
+let harf = hello.split(" ");
 
-// let natija = [];
+let result = [];
 
-// for (let i = word.length - 1; i >= 0; i = i - 1) {
-//   natija.push(word[i]);
-// }
+for (let i = harf.length - 1; i >= 0; i = i - 1) {
+  result.push(harf[i]);
+}
 
-// console.log(natija.join(" "));
-// natija.join("");
+console.log(result.join(" "));
+result.join("");
 
 ///////////////////////////////////// Sonlar
 
@@ -77,4 +77,17 @@ natija.join("");
 
 // console.log(natija.join(" "));
 // natija.join("");
+
+
+
+
+
+
+
+
+
+
+
+
+
 
