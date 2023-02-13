@@ -170,8 +170,16 @@ Note: Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to l
 
     <div class="section-2">
       <h2 class="h23">Handcrafted, home-made masterpieces</h2>
-      <input class="tugma" type="email" placeholder="Enter your email adress" />
-      <button class="button" type="submit">GET STARTED</button>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input
+          id="email"
+          class="tugma"
+          type="email"
+          name="email"
+          placeholder="Enter your email adress"
+        />
+        <button class="button" id="submit" type="submit">GET STARTED</button>
+      </form>
     </div>
     <section class="section-3" id="features">
       <h3 class="h3">Premium Materials</h3>
